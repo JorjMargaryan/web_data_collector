@@ -1,0 +1,103 @@
+19-09-2024 17:55:52 INFO Successfully navigated to: https://www.onlyoffice.com/ using firefox driver (Version 127.0) on windows
+19-09-2024 17:55:52 INFO An element was successfully found using the locator By: class name, Value: pushy in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:52 INFO An element was successfully found using the locator By: id, Value: navitem_about in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:53 INFO An element was successfully found using the locator By: id, Value: navitem_about_menu in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:53 INFO An element was successfully found using the locator By: id, Value: navitem_about_menu in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:53 INFO An element was successfully found using the locator By: css selector, Value: #navitem_about_contacts in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO The element '<selenium.webdriver.remote.webelement.WebElement (session="c2936aba-5c1b-41fb-b4a4-826e9c04495e", element="ba4a6d27-1a1f-41e6-a57d-86a517abba4f")>' was successfully clicked in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: class name, Value: h1mid in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: [itemscope=''] in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:55:54 INFO The file 'data.csv' is removed successfully
+19-09-2024 17:55:55 INFO The firefox browser (Version 127.0) on windows has been successfully closed.
+19-09-2024 17:55:55 INFO ====== WebDriver manager ======
+19-09-2024 17:55:57 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:55:57 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:55:57 INFO Driver [C:\Users\Admin\.wdm\drivers\geckodriver\win64\v0.35.0\geckodriver.exe] found in cache
+19-09-2024 17:56:05 INFO Successfully navigated to: https://www.onlyoffice.com/ using firefox driver (Version 127.0) on windows
+19-09-2024 17:56:05 INFO An element was successfully found using the locator By: id, Value: navitem_about in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:05 INFO An element was successfully found using the locator By: id, Value: navitem_about_menu in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:05 INFO An element was successfully found using the locator By: css selector, Value: #navitem_about_contacts in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:06 INFO The element '<selenium.webdriver.remote.webelement.WebElement (session="0ff0e180-8552-4ec9-98e9-8112186f841f", element="0a6c99f2-791c-452d-a09f-0cf00bc3d008")>' was successfully clicked in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:06 INFO An element was successfully found using the locator By: class name, Value: h1mid in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:07 INFO The firefox browser (Version 127.0) on windows has been successfully closed.
+19-09-2024 17:56:07 INFO ====== WebDriver manager ======
+19-09-2024 17:56:09 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:56:09 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:56:09 INFO Driver [C:\Users\Admin\.wdm\drivers\geckodriver\win64\v0.35.0\geckodriver.exe] found in cache
+19-09-2024 17:56:17 INFO Successfully navigated to: https://www.onlyoffice.com/ using firefox driver (Version 127.0) on windows
+19-09-2024 17:56:17 INFO An element was successfully found using the locator By: id, Value: navitem_about in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:17 INFO An element was successfully found using the locator By: id, Value: navitem_about_menu in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:17 INFO An element was successfully found using the locator By: css selector, Value: #navitem_about_contacts in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:18 INFO The element '<selenium.webdriver.remote.webelement.WebElement (session="0d315526-ee9b-4166-b268-ce7714413db8", element="1c9b01ed-3a1c-4bbd-a5d1-0feda1c1da3a")>' was successfully clicked in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:18 INFO An element was successfully found using the locator By: css selector, Value: [itemscope=''] in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:18 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:18 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:18 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:18 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: [itemprop='addressLocality'] in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(2) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:19 INFO An element was successfully found using the locator By: css selector, Value: .companydata > span:nth-child(n+3) in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:20 INFO The firefox browser (Version 127.0) on windows has been successfully closed.
+19-09-2024 17:56:20 INFO ====== WebDriver manager ======
+19-09-2024 17:56:21 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:56:21 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:56:21 INFO Driver [C:\Users\Admin\.wdm\drivers\geckodriver\win64\v0.35.0\geckodriver.exe] found in cache
+19-09-2024 17:56:29 INFO Successfully navigated to: https://www.onlyoffice.com/ using firefox driver (Version 127.0) on windows
+19-09-2024 17:56:29 INFO An element was successfully found using the locator By: class name, Value: pushy in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:30 INFO The firefox browser (Version 127.0) on windows has been successfully closed.
+19-09-2024 17:56:30 INFO ====== WebDriver manager ======
+19-09-2024 17:56:31 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:56:31 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:56:31 INFO Driver [C:\Users\Admin\.wdm\drivers\geckodriver\win64\v0.35.0\geckodriver.exe] found in cache
+19-09-2024 17:56:39 INFO Successfully navigated to: https://www.onlyoffice.com/ using firefox driver (Version 127.0) on windows
+19-09-2024 17:56:39 INFO An element was successfully found using the locator By: id, Value: navitem_about in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:39 INFO An element was successfully found using the locator By: id, Value: navitem_about_menu in firefox driver (Version 127.0) on windows
+19-09-2024 17:56:40 INFO The firefox browser (Version 127.0) on windows has been successfully closed.
+19-09-2024 17:56:40 INFO ====== WebDriver manager ======
+19-09-2024 17:56:42 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:56:42 INFO Get LATEST geckodriver version for 127.0 firefox
+19-09-2024 17:56:42 INFO Driver [C:\Users\Admin\.wdm\drivers\geckodriver\win64\v0.35.0\geckodriver.exe] found in cache
+19-09-2024 17:56:49 INFO Successfully navigated to: https://www.onlyoffice.com/ using firefox driver (Version 127.0) on windows
+19-09-2024 17:56:49 INFO The file 'officeData.csv' is removed successfully
+19-09-2024 17:56:50 INFO The firefox browser (Version 127.0) on windows has been successfully closed.

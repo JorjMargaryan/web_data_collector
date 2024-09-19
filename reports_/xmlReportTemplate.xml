@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="tests_.testCases_.functionalTests.FunctionalTests-20240919175314" tests="1" file="tests_/testCases_/functionalTests.py" time="12.529" timestamp="2024-09-19T17:53:27" failures="0" errors="0" skipped="0">
+		<testcase classname="tests_.testCases_.functionalTests.FunctionalTests" name="test_data_collection_and_file_saving_functionality" time="12.529" timestamp="2024-09-19T17:53:27" file="..\..\..\testCases_\functionalTests.py" line="14">
+			<!--
+            Test Case: Verify the functionality of data collection from the contacts page and saving it to a CSV file.
+        -->
+		</testcase>
+	</testsuite>
+	<testsuite name="tests_.testCases_.acceptanceTests.AcceptanceTests-20240919175314" tests="5" file="tests_/testCases_/acceptanceTests.py" time="60.214" timestamp="2024-09-19T17:54:27" failures="0" errors="0" skipped="0">
+		<testcase classname="tests_.testCases_.acceptanceTests.AcceptanceTests" name="test_contacts_page_opens_on_click" time="12.042" timestamp="2024-09-19T17:53:39" file="..\..\..\testCases_\acceptanceTests.py" line="39">
+			<!--
+            Test Case: Verify is the Contacts Page Opens on Click
+            Expected Result: The contacts page should open.
+        -->
+		</testcase>
+		<testcase classname="tests_.testCases_.acceptanceTests.AcceptanceTests" name="test_data_collection_from_page" time="16.422" timestamp="2024-09-19T17:53:55" file="..\..\..\testCases_\acceptanceTests.py" line="52">
+			<!--
+            Test Case: Verify Data Collection from Page
+            Expected Result: The office data should be collected and be in the expected format
+        -->
+		</testcase>
+		<testcase classname="tests_.testCases_.acceptanceTests.AcceptanceTests" name="test_main_page_opening_functionality" time="10.296" timestamp="2024-09-19T17:54:05" file="..\..\..\testCases_\acceptanceTests.py" line="20">
+			<!--
+            Test Case: Verify is the main Page opened.
+            Expected Result: The page should be opened and the title should contain page name.
+        -->
+		</testcase>
+		<testcase classname="tests_.testCases_.acceptanceTests.AcceptanceTests" name="test_resources_area_opens_on_hover" time="10.715" timestamp="2024-09-19T17:54:16" file="..\..\..\testCases_\acceptanceTests.py" line="28">
+			<!--
+            Test Case: Verify is the Resources Area Opens on Hover
+            Expected Result: The resources area should open.
+        -->
+		</testcase>
+		<testcase classname="tests_.testCases_.acceptanceTests.AcceptanceTests" name="test_save_csv_file" time="10.738" timestamp="2024-09-19T17:54:27" file="..\..\..\testCases_\acceptanceTests.py" line="68">
+			<!--
+            Test Case: Verify Save CSV File
+            Expected Result: The CSV file should be created and contain the data.
+        -->
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -46,7 +46,6 @@ jobs:
         
     - name: Run Christmas Tree Script
       run: |
-        source venv/bin/activate
         python ./tests_/common_/runners_/htmlRunners_/regressionRunner.py
 
     - name: Upload HTML Report

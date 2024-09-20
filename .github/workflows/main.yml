@@ -20,19 +20,25 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-        
-    - name: Install Selenium and WebDriver Manager
+  
+    - name: Install Firefox
       run: |
-        echo "Installing Selenium and WebDriver Manager"
-        python -m pip install --upgrade pip
-        pip install selenium 
-        pip install webdriver-manager
-        
-    - name: Install dependencies
+        sudo apt-get update && sudo apt-get install -y firefox
+        firefox --version
+
+    - name: Create and Activate Virtual Environment
       run: |
+        python -m venv venv
+        source venv/bin/activate
         python -m pip install --upgrade pip
-        pip install -r $REPO_PATH/requirements.txt 
-        
+        pip install selenium webdriver-manager
+        pip install -r ./requirements.txt
+
+    - name: Set PYTHONPATH
+      run: |
+        echo "PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
+        echo "Python path set to: ${{ github.workspace }}"
+
     - name: Print current working directory before running script
       run: |
         echo "Current working directory before running the script:"
@@ -40,9 +46,10 @@ jobs:
         echo "List of files:"
         ls
         
-    - name: Run Web Data Collector Tests
+    - name: Run Christmas Tree Script
       run: |
-        python ./tests_/common_/runners_/htmlRunners_/regressionRunner.py 
+        source venv/bin/activate
+        python ./tests_/common_/runners_/htmlRunners_/regressionRunner.py
 
     - name: Upload HTML Report
       uses: actions/upload-artifact@v3

@@ -14,7 +14,7 @@ def get_root_directory():
         projectName = "web_data_collector"
         currentPath = Path(__file__)
         if pathTrigger == '1':
-            projectRootPath = (str(currentPath).split(projectName))[0]
+            projectRootPath = (str(currentPath).split(projectName))[0] + projectName + projectName
             print("Project Root Directory - ", projectRootPath)
         else:
             projectRootPath = (str(currentPath).split(projectName))[0] + projectName

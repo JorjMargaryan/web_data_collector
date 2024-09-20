@@ -1,0 +1,37 @@
+name: Web Data Collector Tests
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      id: checkout  
+      uses: actions/checkout@v3
+
+    - name: Set up repository path
+      run: echo "REPO_PATH=${{ github.workspace }}" >> $GITHUB_ENV 
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r $REPO_PATH/requirements.txt 
+
+    - name: Run Web Data Collector Tests
+      run: |
+        python $REPO_PATH/tests_/common_/runners_/htmlRunners_/regressionRunner.py 
+
+    - name: Upload HTML Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: web-data-collector-report
+        path: $REPO_PATH/reports_/report_*.html  

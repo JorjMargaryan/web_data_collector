@@ -17,6 +17,7 @@ class Reporters:
             projectName = "web_data_collector"
             currentPath = Path(__file__)
             projectRootPath = (str(currentPath).split(projectName))[0] + projectName
+            print("Project Root Directory - ", projectRootPath)
             return projectRootPath
         except FileNotFoundError as e:
             customLogger.logger("ERROR", f"{MessageCodes[FILE_NOT_FOUND]} - {str(e)}")
@@ -50,6 +51,7 @@ class Reporters:
             # Open the HTML report file within the directory for writing
             rootDirectory = self.__get_root_directory()
             reportsDirectory = os.path.join(rootDirectory, "reports_")
+            print("ReportsFile Directory - ", reportsDirectory)
             reportFileName = self.__generate_report_file_name("html")
             # Create a report file and place it in the reports_ directory.(The format-rootDirectory/reports_/reportFileName )
             reportFile = open(os.path.join(reportsDirectory, reportFileName), "wb")

@@ -34,11 +34,6 @@ jobs:
         pip install selenium webdriver-manager
         pip install -r ./requirements.txt
 
-    - name: Set PYTHONPATH
-      run: |
-        echo "PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
-        echo "Python path set to: ${{ github.workspace }}"
-
     - name: Print current working directory before running script
       run: |
         echo "Current working directory before running the script:"

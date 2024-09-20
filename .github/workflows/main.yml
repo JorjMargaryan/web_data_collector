@@ -13,9 +13,6 @@ jobs:
       id: checkout  
       uses: actions/checkout@v3
 
-    - name: Set up repository path
-      run: echo "REPO_PATH=${{github.workspace}}" >> $GITHUB_ENV 
-
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -40,6 +37,10 @@ jobs:
         pwd
         echo "List of files:"
         ls
+    - name: Set PYTHONPATH
+      run: |
+        echo "PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
+        echo "Python path set to: ${{ github.workspace }}"
         
     - name: Run Christmas Tree Script
       run: |

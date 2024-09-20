@@ -51,4 +51,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: web-data-collector-report
-        path: $REPO_PATH/reports_/report_*.html  
+        path: ./reports_/report_*.html  

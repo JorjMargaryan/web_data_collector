@@ -18,11 +18,11 @@ class Reporters:
 
             projectName = "web_data_collector"
             currentPath = Path(__file__)
+            projectRootPath = (str(currentPath).split(projectName))[0] + projectName
             if pathTrigger == '1':
-                projectRootPath = (str(currentPath).split(projectName))[0] + projectName + projectName
+                projectRootPath = os.path.join(projectRootPath, projectName)
                 print("Project Root Directory - ", projectRootPath)
-            else:
-                projectRootPath = (str(currentPath).split(projectName))[0] + projectName
+                
             return projectRootPath
         except FileNotFoundError as e:
             customLogger.logger("ERROR", f"{MessageCodes[FILE_NOT_FOUND]} - {str(e)}")

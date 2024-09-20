@@ -13,11 +13,10 @@ def get_root_directory():
         pathTrigger = os.getenv('PATH_TRIGGER')
         projectName = "web_data_collector"
         currentPath = Path(__file__)
+        projectRootPath = (str(currentPath).split(projectName))[0] + projectName
         if pathTrigger == '1':
-            projectRootPath = (str(currentPath).split(projectName))[0] + projectName + projectName
+            projectRootPath = os.path.join(projectRootPath, projectName)
             print("Project Root Directory - ", projectRootPath)
-        else:
-            projectRootPath = (str(currentPath).split(projectName))[0] + projectName
 
         return projectRootPath
     except FileNotFoundError as e:

@@ -9,45 +9,39 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PATH_TRIGGER: 1  
-
+      
     steps:
     - name: Checkout code
-      id: checkout  
       uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-  
-    - name: Install Firefox
+    - name: Set up environment and run tests
       run: |
-        sudo apt-get update && sudo apt-get install -y firefox
+        # Set up Python
+        sudo apt-get update
+        sudo apt-get install -y python3 python3-venv python3-pip firefox
+        python3 --version
         firefox --version
-
-    - name: Create and Activate Virtual Environment
-      run: |
-        python -m venv venv
+        
+        # Create and activate virtual environment
+        python3 -m venv venv
         source venv/bin/activate
         python -m pip install --upgrade pip
         pip install selenium webdriver-manager
         pip install -r ./requirements.txt
-
-    - name: Print current working directory before running script
-      run: |
+        
+        # Print current working directory and list files
         echo "Current working directory before running the script:"
         pwd
         echo "List of files:"
         ls
-    - name: Set PYTHONPATH
-      run: |
-        echo "PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
-        echo "Python path set to: ${{ github.workspace }}"
         
-    - name: Run Christmas Tree Script
-      run: |
+        # Set PYTHONPATH
+        echo "PYTHONPATH=${{github.workspace}}" >> $GITHUB_ENV
+        echo "Python path set to: ${{github.workspace}}"
+        
+        # Run Christmas Tree Script
         python ./tests_/common_/runners_/htmlRunners_/regressionRunner.py
-
+  
     - name: Upload HTML Report
       uses: actions/upload-artifact@v3
       with:

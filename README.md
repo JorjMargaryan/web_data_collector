@@ -58,7 +58,7 @@ To run the data collector, follow these steps:
        python getOfficesDataRunner.py path/to/output.csv
       ```
 
-Alternatively, you can run the tests directly from your IDE by executing the `getOfficesDataRunner.py` file(this will collect data and save in the default `officeData.csv` file).
+Alternatively, you can run the data collector directly from your IDE by executing the `getOfficesDataRunner.py` file(this will collect data and save in the default `officeData.csv` file).
 
 ## Running the Tests
 

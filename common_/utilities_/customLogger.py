@@ -13,6 +13,7 @@ def get_root_directory():
         projectName = "web_data_collector"
         currentPath = Path(__file__)
         projectRootPath = (str(currentPath).split(projectName))[0] + projectName
+
         return projectRootPath
     except FileNotFoundError as e:
         logger("ERROR", f"{MessageCodes[FILE_NOT_FOUND]} - {str(e)}")

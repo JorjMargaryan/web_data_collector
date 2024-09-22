@@ -10,13 +10,9 @@ def get_root_directory():
     """
     from exitCodes import MessageCodes, FILE_NOT_FOUND, UNEXPECTED_BEHAVIOR
     try:
-        pathTrigger = os.getenv('PATH_TRIGGER')
         projectName = "web_data_collector"
         currentPath = Path(__file__)
         projectRootPath = (str(currentPath).split(projectName))[0] + projectName
-        if pathTrigger == '1':
-            projectRootPath = os.path.join(projectRootPath, projectName)
-            print("Project Root Directory - ", projectRootPath)
 
         return projectRootPath
     except FileNotFoundError as e:
